@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Css Position Olayları ve Display</title>
+    <style>
+        #div1 {
+            height: 20px;
+            width: 100%;
+            background-color: red;
+            /*position absolute hareket eden div yapar*/
+            /*position: absolute;*/
+            /*position fixed sabit div yapar scrolla aşağı kaydırmamıza rağmen*/
+            position: fixed;
+            left: 0;
+            top: 0
+        }
+
+        #div2 {
+            height: 20px;
+            width: 100px;
+            background-color: black;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            /*display etiketimizin görünüp görünmemesini sağlar*/
+            display:inherit; /*none*/
+        }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div style="margin-top:20px; background-color:yellow; height:8000px;"></div>
+    <div id="div2"></div>
+</body>
+</html>

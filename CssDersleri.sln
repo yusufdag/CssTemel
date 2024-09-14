@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Çözüm Öğeleri", "Çözüm Öğeleri", "{44F651A3-8430-493F-BF14-FF17BBFAF9FC}"
+	ProjectSection(SolutionItems) = preProject
+		ayarlar.css = ayarlar.css
+		CssArkaPlanGorunumleri.html = CssArkaPlanGorunumleri.html
+		CssBoyutOzellikleri.html = CssBoyutOzellikleri.html
+		CssDosyalariYapipCagirmak.html = CssDosyalariYapipCagirmak.html
+		CssFloat.html = CssFloat.html
+		CssGezintiliSelektorler.html = CssGezintiliSelektorler.html
+		CssGramerYapisiveSelektorler.html = CssGramerYapisiveSelektorler.html
+		CssImageOlaylari.html = CssImageOlaylari.html
+		CssLinkOlaylari.html = CssLinkOlaylari.html
+		CssListeler.html = CssListeler.html
+		CssMarginPaddingBorder.html = CssMarginPaddingBorder.html
+		CssMetinGorunumleriveFontlar.html = CssMetinGorunumleriveFontlar.html
+		CssPositionOlaylariveDisplay.html = CssPositionOlaylariveDisplay.html
+		CssYorumSatirlari.html = CssYorumSatirlari.html
+		IlkWebsitem.html = IlkWebsitem.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A5CE45D-769A-4CC3-A40F-6160C183F734}
+	EndGlobalSection
+EndGlobal

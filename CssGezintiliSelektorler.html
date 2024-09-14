@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Css Gezintili Selektörler</title>
+    <style>
+        /*ya p a yada p > a şeklinde kullanabiliriz*/
+        #div1 p  a{
+            color:yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        div etiketi
+        <p>
+            paragraf yazıları
+            <a>
+                p etiketinin altındaki a etiketi
+            </a>
+        </p>
+    </div>
+
+    <h1>
+        h1 etiketi
+        <a href="/">
+            h1 etiketinin içindeki a etiketi
+        </a>
+        <p>
+            paragraf yazıları
+            <a>
+                p etiketinin altındaki a etiketi
+            </a>
+        </p>
+    </h1>
+</body>
+</html>
